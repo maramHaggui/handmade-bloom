@@ -1,0 +1,382 @@
+[
+  {
+    "id": 1,
+    "name": "Bijou handmade rose",
+    "price": 25,
+    "category": "bijoux",
+    "img": "image/b1.jpg",
+    "desc": "Bijou handmade élégant et girly.",
+    "badge": "Best seller",
+    "rating": "4.9"
+  },
+  {
+    "id": 2,
+    "name": "Bracelet perlé doux",
+    "price": 28,
+    "category": "bijoux",
+    "img": "image/b2.jpg",
+    "desc": "Bracelet fait main avec finition raffinée.",
+    "badge": "Nouveau",
+    "rating": "4.8"
+  },
+  {
+    "id": 3,
+    "name": "Collier minimaliste",
+    "price": 32,
+    "category": "bijoux",
+    "img": "image/b3.jpg",
+    "desc": "Collier doux pour un look féminin.",
+    "badge": "Chic",
+    "rating": "4.7"
+  },
+  {
+    "id": 4,
+    "name": "Bijou fleuri",
+    "price": 30,
+    "category": "bijoux",
+    "img": "image/b4.jpg",
+    "desc": "Création handmade inspirée des fleurs.",
+    "badge": "Lovely",
+    "rating": "4.9"
+  },
+  {
+    "id": 5,
+    "name": "Bracelet pastel",
+    "price": 24,
+    "category": "bijoux",
+    "img": "image/b5.jpg",
+    "desc": "Un bracelet léger, doux et élégant.",
+    "badge": "Cute",
+    "rating": "4.8"
+  },
+  {
+    "id": 6,
+    "name": "Collier cœur",
+    "price": 38,
+    "category": "bijoux",
+    "img": "image/b6.jpg",
+    "desc": "Collier cœur parfait pour un cadeau.",
+    "badge": "Top",
+    "rating": "5.0"
+  },
+  {
+    "id": 7,
+    "name": "Bijou perlé",
+    "price": 27,
+    "category": "bijoux",
+    "img": "image/b7.jpg",
+    "desc": "Bijou délicat avec des détails perlés.",
+    "badge": "Handmade",
+    "rating": "4.8"
+  },
+  {
+    "id": 8,
+    "name": "Bracelet élégant",
+    "price": 29,
+    "category": "bijoux",
+    "img": "image/b8.jpg",
+    "desc": "Bracelet féminin pour tous les jours.",
+    "badge": "Favori",
+    "rating": "4.9"
+  },
+  {
+    "id": 9,
+    "name": "Bijou romantique",
+    "price": 34,
+    "category": "bijoux",
+    "img": "image/b9.jpg",
+    "desc": "Création romantique faite avec amour.",
+    "badge": "Romantic",
+    "rating": "4.8"
+  },
+  {
+    "id": 10,
+    "name": "Set bijoux girly",
+    "price": 45,
+    "category": "bijoux",
+    "img": "image/b10.jpg",
+    "desc": "Set handmade élégant et doux.",
+    "badge": "Set",
+    "rating": "5.0"
+  },
+  {
+    "id": 11,
+    "name": "Bougie vanille fleurie",
+    "price": 32,
+    "category": "bougies",
+    "img": "image/c1.jpg",
+    "desc": "Bougie parfumée artisanale douce et girly.",
+    "badge": "Nouveau",
+    "rating": "4.8"
+  },
+  {
+    "id": 12,
+    "name": "Bougie rose poudrée",
+    "price": 29,
+    "category": "bougies",
+    "img": "image/c2.jpg",
+    "desc": "Bougie décorative parfaite pour un cadeau.",
+    "badge": "Promo",
+    "rating": "4.8"
+  },
+  {
+    "id": 13,
+    "name": "Bougie florale",
+    "price": 35,
+    "category": "bougies",
+    "img": "image/c3.jpg",
+    "desc": "Parfum floral doux et ambiance cosy.",
+    "badge": "Flower",
+    "rating": "4.9"
+  },
+  {
+    "id": 14,
+    "name": "Bougie pastel",
+    "price": 30,
+    "category": "bougies",
+    "img": "image/c4.jpg",
+    "desc": "Bougie handmade au style pastel.",
+    "badge": "Cute",
+    "rating": "4.7"
+  },
+  {
+    "id": 15,
+    "name": "Bougie décorative",
+    "price": 33,
+    "category": "bougies",
+    "img": "image/c5.jpg",
+    "desc": "Belle bougie pour décorer votre espace.",
+    "badge": "Decor",
+    "rating": "4.8"
+  },
+  {
+    "id": 16,
+    "name": "Bougie cadeau",
+    "price": 39,
+    "category": "bougies",
+    "img": "image/c6.jpg",
+    "desc": "Bougie parfaite pour offrir.",
+    "badge": "Gift",
+    "rating": "5.0"
+  },
+  {
+    "id": 17,
+    "name": "Bougie romantique",
+    "price": 36,
+    "category": "bougies",
+    "img": "image/c7.jpg",
+    "desc": "Ambiance romantique et senteur douce.",
+    "badge": "Romantic",
+    "rating": "4.9"
+  },
+  {
+    "id": 18,
+    "name": "Bougie cosy",
+    "price": 31,
+    "category": "bougies",
+    "img": "image/c8.jpg",
+    "desc": "Bougie cosy pour une ambiance chaleureuse.",
+    "badge": "Cosy",
+    "rating": "4.7"
+  },
+  {
+    "id": 19,
+    "name": "Bougie artisanale",
+    "price": 34,
+    "category": "bougies",
+    "img": "image/c10.jpg",
+    "desc": "Bougie faite main avec soin.",
+    "badge": "Handmade",
+    "rating": "4.8"
+  },
+  {
+    "id": 20,
+    "name": "Bougie soft pink",
+    "price": 37,
+    "category": "bougies",
+    "img": "image/c11.jpg",
+    "desc": "Bougie girly aux tons doux.",
+    "badge": "Soft",
+    "rating": "4.9"
+  },
+  {
+    "id": 21,
+    "name": "Bougie bloom",
+    "price": 40,
+    "category": "bougies",
+    "img": "image/c12.jpg",
+    "desc": "Bougie inspirée de l'univers floral.",
+    "badge": "Bloom",
+    "rating": "5.0"
+  },
+  {
+    "id": 22,
+    "name": "Bougie premium",
+    "price": 45,
+    "category": "bougies",
+    "img": "image/c13.jpg",
+    "desc": "Bougie premium avec finition élégante.",
+    "badge": "Premium",
+    "rating": "5.0"
+  },
+  {
+    "id": 23,
+    "name": "Pack 4 Chouchou Pastel",
+    "price": 18,
+    "category": "accessoires",
+    "img": "image/a1.jpg",
+    "desc": "Accessoire handmade doux et pratique.",
+    "badge": "Cute",
+    "rating": "4.7"
+  },
+  {
+    "id": 24,
+    "name": "Pack 6 Chouchou Rosé",
+    "price": 45,
+    "category": "accessoires",
+    "img": "image/a2.jpg",
+    "desc": "Petite pochette handmade chic et pratique.",
+    "badge": "Chic",
+    "rating": "4.9"
+  },
+  {
+    "id": 25,
+    "name": "Pack 3 Hair Clips",
+    "price": 15,
+    "category": "accessoires",
+    "img": "image/a3.jpg",
+    "desc": "Accessoire cheveux doux et féminin.",
+    "badge": "Top",
+    "rating": "4.8"
+  },
+  {
+    "id": 26,
+    "name": "Pack 4 Hair Clips Blue",
+    "price": 35,
+    "category": "accessoires",
+    "img": "image/a4.jpg",
+    "desc": "Trousse handmade avec détails floraux.",
+    "badge": "Flower",
+    "rating": "4.8"
+  },
+  {
+    "id": 27,
+    "name": "Pack 4 Hair Clips Red",
+    "price": 28,
+    "category": "accessoires",
+    "img": "image/a5.jpg",
+    "desc": "Pièce brodée avec amour.",
+    "badge": "Brodé",
+    "rating": "4.9"
+  },
+  {
+    "id": 28,
+    "name": "Hair Clips Fleur Gold",
+    "price": 55,
+    "category": "accessoires",
+    "img": "image/a6.jpg",
+    "desc": "Sac doux et pratique pour tous les jours.",
+    "badge": "Bag",
+    "rating": "5.0"
+  },
+  {
+    "id": 29,
+    "name": "Hair Clips floral",
+    "price": 24,
+    "category": "accessoires",
+    "img": "image/a7.jpg",
+    "desc": "Accessoire inspiré des fleurs.",
+    "badge": "Lovely",
+    "rating": "4.7"
+  },
+  {
+    "id": 30,
+    "name": "Hair Clips floral",
+    "price": 42,
+    "category": "accessoires",
+    "img": "image/a8.jpg",
+    "desc": "Pochette pastel douce et élégante.",
+    "badge": "Pastel",
+    "rating": "4.8"
+  },
+  {
+    "id": 31,
+    "name": "Hair Clips floral",
+    "price": 20,
+    "category": "accessoires",
+    "img": "image/a9.jpg",
+    "desc": "Création douce pour compléter votre style.",
+    "badge": "Soft",
+    "rating": "4.7"
+  },
+  {
+    "id": 32,
+    "name": "Duo Hair Clips floral",
+    "price": 33,
+    "category": "accessoires",
+    "img": "image/a10.jpg",
+    "desc": "Mini pochette pratique et girly.",
+    "badge": "Mini",
+    "rating": "4.8"
+  },
+  {
+    "id": 33,
+    "name": "Cache Téléphone floral",
+    "price": 26,
+    "category": "accessoires",
+    "img": "image/a11.jpg",
+    "desc": "Accessoire élégant fait main.",
+    "badge": "Elegant",
+    "rating": "4.9"
+  },
+  {
+    "id": 34,
+    "name": "Création brodée",
+    "price": 39,
+    "category": "accessoires",
+    "img": "image/a12.jpg",
+    "desc": "Création artisanale avec broderie.",
+    "badge": "Handmade",
+    "rating": "4.8"
+  },
+  {
+    "id": 35,
+    "name": "Sac croché",
+    "price": 27,
+    "category": "accessoires",
+    "img": "image/a13.jpg",
+    "desc": "Accessoire inspiré de Handmade Bloom.",
+    "badge": "Bloom",
+    "rating": "4.7"
+  },
+  {
+    "id": 36,
+    "name": "Sac croché",
+    "price": 44,
+    "category": "accessoires",
+    "img": "image/a14.jpg",
+    "desc": "Pochette girly idéale pour offrir.",
+    "badge": "Gift",
+    "rating": "4.9"
+  },
+  {
+    "id": 37,
+    "name": "Sac plage croché",
+    "price": 48,
+    "category": "accessoires",
+    "img": "image/a15.jpg",
+    "desc": "Accessoire premium avec finition soignée.",
+    "badge": "Premium",
+    "rating": "5.0"
+  },
+  {
+    "id": 38,
+    "name": "Porte clé papillon",
+    "price": 60,
+    "category": "accessoires",
+    "img": "image/a16.jpg",
+    "desc": "Set handmade doux, pratique et élégant.",
+    "badge": "Set",
+    "rating": "5.0"
+  }
+]

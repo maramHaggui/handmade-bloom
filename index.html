@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Handmade Bloom</title>
+  <link rel="stylesheet" href="style.css?v=php-auth-admin-2" />
+</head>
+<body>
+
+  <div class="toast" id="toast"></div>
+
+  <header class="header">
+    <a href="#home" class="logo">
+      <img src="image/logo.png" alt="Handmade Bloom Logo" />
+      <span>Handmade Bloom</span>
+    </a>
+
+    <nav class="navbar" id="navbar">
+      <a href="#home">Accueil</a>
+      <a href="#products">Produits</a>
+      <a href="#about">À propos</a>
+      <a href="#feedback">Avis</a>
+      <a href="#contact">Contact</a>
+      <a href="login.html">Connexion</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="cart-btn" id="openCart">
+        🛍️ <span id="cartCount">0</span>
+      </button>
+      <button class="menu-btn" id="menuBtn">☰</button>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <p class="tag">Créations faites main avec amour</p>
+      <h1>Des pièces handmade douces, uniques et élégantes</h1>
+      <p>
+        Découvrez une collection girly de bijoux, bougies, accessoires et cadeaux
+        personnalisés pour rendre chaque moment plus spécial.
+      </p>
+      <div class="hero-buttons">
+        <a href="#products" class="main-btn">Voir la collection</a>
+        <a href="#contact" class="second-btn">Nous contacter</a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <h3>100%</h3>
+          <span>Handmade</span>
+        </div>
+        <div>
+          <h3>+250</h3>
+          <span>Commandes</span>
+        </div>
+        <div>
+          <h3>4.9★</h3>
+          <span>Avis clients</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-card owners-card">
+        <div class="owners-photo-box">
+          <img src="image/owners.png" alt="Propriétaires de Handmade Bloom" class="owners-photo" />
+        </div>
+        <h3>Du rêve aux belles créations handmade</h3>
+        <p>
+          Rencontrez les cœurs derrière Handmade Bloom, transformant passion et créativité
+          en belles pièces faites main.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="feature-box">
+      <span>🚚</span>
+      <h3>Livraison rapide</h3>
+      <p>Commande préparée avec soin et livrée rapidement.</p>
+    </div>
+
+    <div class="feature-box">
+      <span>🎁</span>
+      <h3>Packaging élégant</h3>
+      <p>Un emballage doux, girly et parfait pour offrir.</p>
+    </div>
+
+    <div class="feature-box">
+      <span>💖</span>
+      <h3>Création unique</h3>
+      <p>Chaque produit est fait main avec attention.</p>
+    </div>
+  </section>
+
+  <section class="products-section" id="products">
+    <div class="section-title">
+      <p>Notre boutique</p>
+      <h2>Produits populaires</h2>
+    </div>
+
+    <div class="shop-tools">
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Rechercher un produit..." />
+      </div>
+
+      <div class="categories">
+        <button class="category active" data-category="all">Tous</button>
+        <button class="category" data-category="bijoux">Bijoux</button>
+        <button class="category" data-category="bougies">Bougies</button>
+        <button class="category" data-category="accessoires">Accessoires</button>
+      </div>
+    </div>
+
+    <div class="products-grid" id="productsGrid"></div>
+  </section>
+
+  <section class="promo-banner">
+    <div>
+      <p>Offre spéciale</p>
+      <h2>-15% sur votre première commande</h2>
+      <span>Utilisez le code : <strong>BLOOM15</strong></span>
+    </div>
+    <a href="#products">Shop now</a>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="image/logo.png" alt="Logo Handmade Bloom" />
+    </div>
+
+    <div class="about-text">
+      <p class="tag">Pourquoi nous choisir ?</p>
+      <h2>Une boutique handmade douce, moderne et personnalisée</h2>
+      <p>
+        Chez Handmade Bloom, chaque création est imaginée pour apporter une touche
+        féminine, élégante et unique à votre quotidien. Nos produits sont parfaits
+        pour offrir ou pour se faire plaisir.
+      </p>
+      <div class="about-items">
+        <div>🎀 Design girly</div>
+        <div>💌 Cadeaux personnalisés</div>
+        <div>✨ Qualité artisanale</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="steps">
+    <div class="section-title">
+      <p>Commande simple</p>
+      <h2>Comment commander ?</h2>
+    </div>
+
+    <div class="steps-grid">
+      <div class="step-card">
+        <span>1</span>
+        <h3>Choisissez</h3>
+        <p>Sélectionnez vos produits préférés.</p>
+      </div>
+
+      <div class="step-card">
+        <span>2</span>
+        <h3>Remplissez</h3>
+        <p>Ajoutez vos informations de livraison.</p>
+      </div>
+
+      <div class="step-card">
+        <span>3</span>
+        <h3>Confirmez</h3>
+        <p>Votre commande sera préparée avec amour.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="feedback-section" id="feedback">
+    <div class="section-title">
+      <p>Avis clients</p>
+      <h2>Ce que disent nos clientes</h2>
+    </div>
+
+    <div class="feedback-grid" id="feedbackGrid">
+      <div class="feedback-card">
+        <div class="stars">★★★★★</div>
+        <p>"J'ai adoré le packaging, très doux et girly !"</p>
+        <h4>- Lina</h4>
+      </div>
+
+      <div class="feedback-card">
+        <div class="stars">★★★★★</div>
+        <p>"Produit magnifique, exactement comme sur la photo."</p>
+        <h4>- Mariem</h4>
+      </div>
+
+      <div class="feedback-card">
+        <div class="stars">★★★★☆</div>
+        <p>"Très belle qualité handmade, je recommande."</p>
+        <h4>- Nour</h4>
+      </div>
+    </div>
+
+    <div class="feedback-form">
+      <h3>Laisser un feedback</h3>
+      <input type="text" id="feedbackName" placeholder="Votre nom" />
+      <select id="feedbackRating">
+        <option value="★★★★★">★★★★★</option>
+        <option value="★★★★☆">★★★★☆</option>
+        <option value="★★★☆☆">★★★☆☆</option>
+        <option value="★★☆☆☆">★★☆☆☆</option>
+        <option value="★☆☆☆☆">★☆☆☆☆</option>
+      </select>
+      <textarea id="feedbackText" placeholder="Votre avis..."></textarea>
+      <button id="sendFeedback">Envoyer</button>
+      <p id="feedbackMessage"></p>
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <div class="contact-card">
+      <p class="tag">Contact</p>
+      <h2>Suivez-nous sur Instagram</h2>
+      <p>
+        Découvrez nos nouveautés, commandes personnalisées, promotions et coulisses
+        de création sur notre page Instagram.
+      </p>
+      <div class="contact-buttons">
+        <a href="https://www.instagram.com/pearljewelry13/" target="_blank">📸 Instagram</a>
+        <a href="mailto:handmadebloom@email.com">💌 Email</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <h3>Handmade Bloom</h3>
+    <p>Créations handmade girly & uniques</p>
+
+    <div class="footer-links">
+      <a href="#home">Accueil</a>
+      <a href="#products">Produits</a>
+      <a href="#feedback">Avis</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <p class="footer-copy">© 2026 - Tous droits réservés</p>
+  </footer>
+
+  <div class="cart-overlay" id="cartOverlay"></div>
+
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="cart-header">
+      <div>
+        <h2>Mon panier</h2>
+        <p>Vérifiez vos articles avant la commande</p>
+      </div>
+      <button id="closeCart">×</button>
+    </div>
+
+    <div id="cartItems"></div>
+
+    <div class="order-zone">
+      <h3>Zone de commande</h3>
+      <input type="text" id="customerName" placeholder="Votre nom complet" />
+      <input type="text" id="customerPhone" placeholder="Numéro de téléphone" />
+      <input type="text" id="customerAddress" placeholder="Adresse de livraison" />
+
+      <select id="deliveryMethod">
+        <option value="">Choisir la livraison</option>
+        <option value="domicile">Livraison à domicile - 7 DT</option>
+        <option value="pickup">Récupération sur place - Gratuit</option>
+      </select>
+
+      <textarea id="orderNote" placeholder="Note spéciale..."></textarea>
+    </div>
+
+    <div class="cart-footer">
+      <div class="total-line">
+        <span>Sous-total</span>
+        <strong id="subTotal">0 DT</strong>
+      </div>
+
+      <div class="total-line">
+        <span>Livraison</span>
+        <strong id="deliveryFee">0 DT</strong>
+      </div>
+
+      <div class="total-line grand-total">
+        <span>Total</span>
+        <strong id="cartTotal">0 DT</strong>
+      </div>
+
+      <button class="checkout-btn" id="confirmOrder">
+        Confirmer la commande
+      </button>
+
+      <p class="order-message" id="orderMessage"></p>
+    </div>
+  </aside>
+
+  <script src="app.js?v=php-auth-admin-2"></script>
+</body>
+</html>

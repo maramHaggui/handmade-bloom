@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin - Handmade Bloom</title>
+  <link rel="stylesheet" href="style.css?v=php-auth-admin-2" />
+</head>
+<body>
+
+  <header class="header admin-top-header">
+    <a href="index.html" class="logo">
+      <img src="image/logo.png" alt="Logo Handmade Bloom" />
+      <span>Handmade Bloom Admin</span>
+    </a>
+
+    <nav class="navbar" id="navbar">
+      <a href="#dashboard">Dashboard</a>
+      <a href="#productsAdmin">Produits</a>
+      <a href="#ordersAdmin">Commandes</a>
+      <a href="#feedbackAdmin">Feedbacks</a>
+      <a href="index.html">Voir le site</a>
+    </nav>
+
+    <button class="cart-btn" onclick="logoutUser()">Logout</button>
+  </header>
+
+  <main class="admin-bloom-page">
+    <section class="admin-bloom-hero" id="dashboard">
+      <div class="admin-bloom-text">
+        <p class="tag">Espace administrateur</p>
+        <h1>Gestion de la boutique Handmade Bloom</h1>
+        <p>
+          Gérez les produits, consultez les commandes, suivez les feedbacks
+          et gardez le contrôle de votre boutique handmade.
+        </p>
+      </div>
+
+      <div class="admin-bloom-card">
+        <img src="image/logo.png" alt="Logo Handmade Bloom" />
+        <h3>Admin Dashboard</h3>
+        <p>Interface friendly, douce et organisée comme la page d’accueil.</p>
+      </div>
+    </section>
+
+    <section class="admin-bloom-stats">
+      <div class="stat-card">
+        <span>🛍️</span>
+        <h3 id="totalProducts">0</h3>
+        <p>Produits</p>
+      </div>
+      <div class="stat-card">
+        <span>📦</span>
+        <h3 id="totalOrders">0</h3>
+        <p>Commandes</p>
+      </div>
+      <div class="stat-card">
+        <span>⭐</span>
+        <h3 id="totalFeedbacks">0</h3>
+        <p>Feedbacks</p>
+      </div>
+      <div class="stat-card">
+        <span>💰</span>
+        <h3 id="totalRevenue">0 DT</h3>
+        <p>Revenu total</p>
+      </div>
+    </section>
+
+    <section class="admin-bloom-section" id="productsAdmin">
+      <div class="section-title">
+        <p>Produits</p>
+        <h2>Gestion des produits</h2>
+      </div>
+
+      <div class="admin-bloom-form">
+        <input type="hidden" id="editProductId" />
+        <input type="text" id="productName" placeholder="Nom du produit" />
+        <input type="number" id="productPrice" placeholder="Prix en DT" />
+
+        <select id="productCategory">
+          <option value="bijoux">Bijoux</option>
+          <option value="bougies">Bougies</option>
+          <option value="accessoires">Accessoires</option>
+        </select>
+
+        <input type="text" id="productImage" placeholder="Image : image/b1.jpg" />
+        <input type="text" id="productBadge" placeholder="Badge : Nouveau, Promo..." />
+        <input type="text" id="productRating" placeholder="Rating : 4.9" />
+        <textarea id="productDesc" placeholder="Description du produit"></textarea>
+
+        <button onclick="saveAdminProduct()" id="saveProductBtn">Ajouter produit</button>
+      </div>
+
+      <div class="admin-bloom-table">
+        <table>
+          <thead>
+            <tr>
+              <th>Image</th>
+              <th>Produit</th>
+              <th>Catégorie</th>
+              <th>Prix</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="adminProductsTable"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="admin-bloom-section" id="ordersAdmin">
+      <div class="section-title">
+        <p>Commandes</p>
+        <h2>Commandes clientes</h2>
+      </div>
+      <div id="ordersList" class="orders-list"></div>
+    </section>
+
+    <section class="admin-bloom-section" id="feedbackAdmin">
+      <div class="section-title">
+        <p>Avis</p>
+        <h2>Feedbacks clients</h2>
+      </div>
+      <div id="feedbackList" class="orders-list"></div>
+    </section>
+  </main>
+
+  <script src="auth.js?v=php-auth-admin-2"></script>
+  <script src="admin.js?v=php-auth-admin-2"></script>
+</body>
+</html>
